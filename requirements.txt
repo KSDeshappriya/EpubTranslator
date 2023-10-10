@@ -1,0 +1,4 @@
+ebooklib==0.17.1
+deep-translator
+concurrent.futures
+tqdm

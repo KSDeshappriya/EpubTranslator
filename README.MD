@@ -16,7 +16,7 @@ Before using the script, make sure you have the following prerequisites installe
 You can install the required packages using pip:
 
 ```bash
-pip install ebooklib deep-translator tqdm
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -55,6 +55,42 @@ pip install ebooklib deep-translator tqdm
 
 - URLs within the EPUB file will not be translated, so they will remain in their original form.
 - The script uses the Google Translate API for translation, and you may need an internet connection for it to work.
+
+## Issues and Contributions
+
+If you encounter any bugs, issues, or have suggestions for improvements, please use the GitHub [Issues](https://github.com/KSDeshappriya/EpubTranslator/issues) page to report them. When reporting issues, please provide as much detail as possible, including steps to reproduce the problem, your system configuration, and any relevant error messages.
+
+We welcome contributions to this project! If you'd like to contribute code, documentation, or suggest improvements, please follow the guidelines below:
+
+### Contributing Guidelines
+
+1. Fork the repository to your GitHub account.
+
+2. Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. Make your changes and commit them with clear and concise commit messages.
+
+4. Ensure your code follows the existing coding style and conventions in the project.
+
+5. Update the README if your changes impact usage or configuration.
+
+6. Push your changes to your forked repository.
+
+7. Create a pull request on the main repository. Provide a clear title and description for your PR.
+
+8. Your PR will be reviewed by the maintainers, and feedback may be provided. Make necessary adjustments if requested.
+
+9. Once your PR is approved, it will be merged into the main branch.
+
+Thank you for contributing to the EPUB Translator project! Your efforts are greatly appreciated.
+
+## Performance Improvement Suggestion
+
+The script's performance can be improved by batching translation tasks more efficiently. Currently, the script translates each fragment of text individually, which can lead to longer execution times for large EPUB files. Consider implementing a more optimized batching mechanism to reduce translation time.
 
 ## License
 
