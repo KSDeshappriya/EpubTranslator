@@ -1,6 +1,3 @@
-![Python Version][python-shield]
-[![CC BY-NC 4.0][license-shield]][https://creativecommons.org/licenses/by-nc/4.0/]
-
 # EPUB Translator
 
 This Python script, `epubTranslator.py`, allows you to translate the text content of an EPUB file from one language to another using Google Translate API. The translated content is then saved to a new EPUB file. This README provides instructions on how to use the script and details its functionality.
