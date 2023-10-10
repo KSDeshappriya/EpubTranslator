@@ -1,6 +1,22 @@
+![Python Version][python-shield]
+[![CC BY-NC 4.0][license-shield]][https://creativecommons.org/licenses/by-nc/4.0/]
+
 # EPUB Translator
 
 This Python script, `epubTranslator.py`, allows you to translate the text content of an EPUB file from one language to another using Google Translate API. The translated content is then saved to a new EPUB file. This README provides instructions on how to use the script and details its functionality.
+
+## Table of Contents
+<!-- TOC tocDepth:2..3 chapterDepth:2..6 -->
+- [Table of Contents](#table-of-contents)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Advanced Usage](#advanced-usage)
+- [Notes](#notes)
+- [Issues and Contributions](#issues-and-contributions)
+   - [Contributing Guidelines](#contributing-guidelines)
+- [Performance Improvement Suggestion](#performance-improvement-suggestion)
+- [License](#license)
+<!-- /TOC -->
 
 ## Prerequisites
 
@@ -66,6 +82,10 @@ We welcome contributions to this project! If you'd like to contribute code, docu
 
 1. Fork the repository to your GitHub account.
 
+   ```bash
+   git clone https://github.com/KSDeshappriya/EpubTranslator.git
+   ```
+
 2. Create a new branch for your feature or bug fix:
 
    ```bash
@@ -74,11 +94,19 @@ We welcome contributions to this project! If you'd like to contribute code, docu
 
 3. Make your changes and commit them with clear and concise commit messages.
 
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+
 4. Ensure your code follows the existing coding style and conventions in the project.
 
 5. Update the README if your changes impact usage or configuration.
 
 6. Push your changes to your forked repository.
+
+   ```bash
+   git push origin feature-name/AmazingFeature
+   ```
 
 7. Create a pull request on the main repository. Provide a clear title and description for your PR.
 
